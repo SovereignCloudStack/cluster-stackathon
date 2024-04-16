@@ -1,0 +1,9 @@
+---
+apiVersion: infrastructure.cluster.x-k8s.io/v1beta1
+kind: DockerClusterTemplate
+metadata:
+  name: hackathon-cluster
+  namespace: {{ .Values.namespace }}
+spec:
+  template:
+    spec: {}
