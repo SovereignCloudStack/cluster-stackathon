@@ -1,0 +1,6 @@
+apiVersion: v2
+description: |
+  This was created during the SCS Community Hackathon @ GONiCUS
+name: docker-hackathon-1-28-cluster-class
+type: application
+version: v1

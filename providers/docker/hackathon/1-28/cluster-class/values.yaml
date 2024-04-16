@@ -1,0 +1,6 @@
+namespace: default
+images:
+  controlPlane:
+    - name: registry.scs.community/docker.io/kindest/node:v1.28.6
+  worker:
+    - name: registry.scs.community/docker.io/kindest/node:v1.28.6
