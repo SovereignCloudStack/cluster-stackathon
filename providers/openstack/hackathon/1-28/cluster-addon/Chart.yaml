@@ -1,0 +1,25 @@
+apiVersion: v2
+dependencies:
+- alias: metrics-server
+  name: metrics-server
+  repository: https://kubernetes-sigs.github.io/metrics-server/
+  version: 3.12.0
+- alias: cilium
+  name: cilium
+  repository: https://helm.cilium.io/
+  version: 1.15.3
+- alias: openstack-cloud-controller-manager
+  name: openstack-cloud-controller-manager
+  repository: https://kubernetes.github.io/cloud-provider-openstack
+  version: 2.29.2
+- alias: openstack-cinder-csi
+  name: openstack-cinder-csi
+  repository: https://kubernetes.github.io/cloud-provider-openstack
+  version: 2.29.0
+- alias: yawol-controller
+  name: yawol-controller
+  repository: https://stackitcloud.github.io/yawol
+  version: 0.21.3
+name: openstack-hackathon-1-28-cluster-addon
+type: application
+version: << .ClusterAddonVersion >>
