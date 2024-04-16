@@ -1,0 +1,14 @@
+openstack_loadbalancer_apiserver: false
+images:
+  controlPlane:
+    name: ubuntu-capi-image-v1.28.7
+  worker:
+    name: ubuntu-capi-image-v1.28.7
+cloud:
+  name: "openstack"
+secrets:
+  clouds.yaml: "openstack"
+worker_flavor: "SCS-2V-4"
+controlPlane_flavor: "SCS-2V-4-20"
+external_id: "ebfe5546-f09f-4f42-ab54-094e457d42ec"
+
